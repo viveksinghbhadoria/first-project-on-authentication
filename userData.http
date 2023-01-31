@@ -1,0 +1,27 @@
+POST http://localhost:3000/register/
+Content-Type: application/json
+
+{
+    "email":"kart1.bhoria@gmail.com",
+    "password":"kartik_567",
+    "username":"kartik singh"
+}
+###
+
+POST http://localhost:3000/login/
+Content-Type: application/json
+
+{
+    "email":"kartik123.bhadoria@gmail.com",
+    "password":"kartik_7"
+}
+
+###
+
+PUT http://localhost:3000/forgot-user-password/
+Content-Type: application/json
+
+{
+    "email":"kartik123.bhadoria@gmail.com",
+    "newPassword":"kartik_467"
+}
